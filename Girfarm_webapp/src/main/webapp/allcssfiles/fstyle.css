@@ -1,0 +1,129 @@
+/* Style for the body */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+  }
+  
+  /* Style for the header */
+  header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+  }
+  
+  header h1 {
+	margin: 0;
+	font-size: 36px;
+  }
+  
+  nav {
+	float: right;
+  }
+  
+  nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+  
+  nav li {
+	display: inline-block;
+	margin-left: 20px;
+  }
+  
+  nav a {
+	color: #fff;
+	text-decoration: none;
+  }
+  
+  nav a:hover {
+	text-decoration: underline;
+  }
+  
+  /* Style for the main content */
+  main {
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+  
+  .messages {
+	flex: 1;
+	margin-right: 20px;
+	min-width: 300px;
+  }
+  
+  .messages h2 {
+	margin-top: 0;
+  }
+  
+  .message-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .message-list li {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding: 20px;
+  }
+  
+  .message-header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+  }
+  
+  .message-meta {
+	color: #777;
+	margin: 0;
+  }
+  
+  .message-form {
+	flex-basis: calc(33% - 20px);
+  }
+  
+  .message-form h2 {
+	margin-top: 0;
+  }
+  
+  .message-form form {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 20px;
+  }
+  
+  .message-form label {
+	display: block;
+	margin-bottom: 10px;
+  }
+  
+  .message-form input,
+  .message-form textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 20px;
+  }
+  
+  .message-form button[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+  }
+  
+  .message-form button[type="submit"]:hover {
+	background-color: #444;
+  }
+  

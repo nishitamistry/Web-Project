@@ -1,0 +1,125 @@
+/* General styles */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 0 40px;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0 0 20px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0 0 20px;
+}
+
+/* Search form styles */
+#search {
+	background-color: #fff;
+	border-radius: 10px;
+	margin: 0 0 40px;
+	padding: 20px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#search form {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+#search label {
+	flex: 1;
+	font-weight: bold;
+}
+
+#search input[type="text"] {
+	flex: 2;
+	border: none;
+	background-color: #f2f2f2;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#search button[type="submit"] {
+	flex: 1;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* Forum card styles */
+.forum-card {
+	background-color: #fff;
+	border-radius: 10px;
+	margin: 0 0 40px;
+	padding: 20px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.forum-card h3 {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0 0 10px;
+}
+
+.forum-card p {
+	margin: 0 0 20px;
+}
+
+.forum-card .button {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#discussion {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#discussion ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#discussion li {
+	margin: 0 0 10px;
+}
+
+#discussion li a {
+	color: #007bff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#discussion li a:hover {
+	text-decoration: underline;
+}
